@@ -18,6 +18,10 @@ button{
 .card {
   height: 100%;
 }
+
+form .collapse{
+  margin-top: 5px;
+}
 /*Custom Themes*/
 .dark{
   color: white;
