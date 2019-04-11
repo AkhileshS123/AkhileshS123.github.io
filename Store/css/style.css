@@ -5,7 +5,9 @@ body{
 header .btn{
   margin: 20px;
 }
-
+footer .row a{
+  margin: 5px;
+}
 footer{
   background: black;
   width: 100%;
