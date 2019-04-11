@@ -1,0 +1,44 @@
+body{
+  background: black;
+}
+
+.dark{
+  background: black;
+  color: white;
+}
+button #headingThree{
+  color: white !important;
+}
+#mission{
+}
+@media only screen and (max-width: 768px) {
+  #mission{
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+}
+.card{
+  height: 100%;
+}
+nav{
+  background: black;
+  color: white;
+}
+.btn{
+  margin: 10px;
+}
+
+.carousel img{
+  height: 500px;
+  width: 400px;
+}
+#stem-jumbotron{
+  color: black;
+}
+#footer{
+  padding: 10px;
+  background-color: black;
+}
+#footer img{
+  width: 20%;
+}

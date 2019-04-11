@@ -1,0 +1,143 @@
+body{
+  background-color:black;
+}
+
+header .btn{
+  margin: 20px;
+}
+
+footer{
+  background: black;
+  width: 100%;
+}
+button{
+  border: 1px white solid;
+  color: white;
+  background : black;
+}
+.card {
+  height: 100%;
+}
+/*Custom Themes*/
+.dark{
+  color: white;
+  background: black;
+}
+.darkCard{
+  color: white;
+  background: black;
+  border: 1px white solid;
+  width: 100%;
+}
+.card{
+  width: 100%;
+}
+.navbar{
+  background-color: black;
+}
+.jumbotron{
+  background: black;
+  color: white;
+  width: 100%;
+}
+/*Social Media Buttons*/
+
+.icon-background {
+    color: red;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  color: white;
+  display: inline-block;
+}
+
+.fa:hover {
+    opacity: 0.7
+    color: red;
+    text-decoration: none;
+}
+
+
+.fa-facebook {
+  color: white;
+}
+.fa-facebook:hover{
+  color: #ff0511;
+}
+
+.fa-twitter {
+  color: white;
+}
+.fa-twitter:hover{
+  color: #ff0511;
+}
+
+.fa-youtube {
+  color: white;
+}
+.fa-youtube:hover{
+  color: #ff0511;
+}
+
+.fa-instagram {
+  color: white;
+}
+.fa-instagram:hover{
+  color: #ff0511;
+}
+
+.fa-spotify{
+  color: white;
+}
+.fa-spotify:hover{
+  color: #ff0511;
+}
+
+/**Comment Stuff**/
+.post-comments {
+  padding-bottom: 9px;
+  margin: 5px 0 5px;
+}
+
+.comments-nav {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 5px;
+}
+
+.post-comments .comment-meta {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 5px;
+}
+
+.post-comments .media {
+  border-left: 1px dotted white;
+  border-bottom: 1px dotted white;
+  margin-bottom: 5px;
+  padding-left: 10px;
+}
+
+.post-comments .media-heading {
+  font-size: 12px;
+  color: white;
+}
+
+.post-comments .comment-meta a {
+  font-size: 12px;
+  color: white;
+  font-weight: bolder;
+  margin-right: 5px;
+}
+ion-icon{
+  color:white;
+}
+
+.media-body p{
+  color: white;
+  margin: 10px;
+}
