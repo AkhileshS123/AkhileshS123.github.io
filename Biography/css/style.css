@@ -108,7 +108,24 @@ footer{
   .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll;
   }
+  .bgimg-2{
+    background: url("../img/Felix Tuner.jpg");
+    background-position: center;
+    background-size: 100% 30%;
+    padding: 0;
+    margin: 0;
+  }
 }
+@media only screen and (max-width: 768px) {
+  .bgimg-2{
+    background: url("../img/Felix Tuner.jpg");
+    background-position: center;
+    background-size: 100% 30%;
+    padding: 0;
+    margin: 0;
+  }
+}
+
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
   background-attachment: fixed;
@@ -118,18 +135,27 @@ footer{
 
 }
 .bgimg-1 {
-  background-image: url("img_parallax.jpg");
-  min-height: 100%;
-}
-
-.bgimg-2 {
+  background: url("../img/instrument.jpg");
   position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100vw auto;
+  min-height: 400px;
+  width: 60vw;
+}
+/*The image below is Techno Banner*/
+.bgimg-2 {
   background-image: url("../img/TechnoTunersBanner.png");
-  min-height: 990px;
+  background-position: center 100px;
+  background-size: 100% auto;
+  min-height: 70vh;
 }
 
 .bgimg-3 {
-  background-image: url("img_parallax3.jpg");
+  background-image: url("../img/logo2.png");
+  background-position: center ;
+  background-size: 100% auto;
   min-height: 400px;
 }
 
