@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="../bootstrap-4.3.1-dist/css/bootstrap.min.css">
     <!--Socials-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -49,7 +50,7 @@
             </div>
           </div>
         </div>
-      <div class="container-fluid" style="width: 90%;">
+      <div id="point" class="container-fluid" style="width: 90%;">
         <div class="row">
           <div class="col-md-11 col-sm-12" style="margin: auto;">
             <div id="tourSlides" class="carousel slide carousel-fade" data-ride="carousel">
@@ -125,17 +126,28 @@
         </div>
       </div>
 
+      <div id="btngroup" class="row mx-auto" style="margin: 10px auto; display: flex; flex-direction: row; justify-content: center;">
+        <div class="col-sm-10 col-md-4">
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <a class="btn btn-outline-light" href="#aNewYork">New York</a>
+            <a class="btn btn-outline-light" href="#aSing">Singapore</a>
+            <a class="btn btn-outline-light" href="#aDubai">Dubai</a>
+            <a class="btn btn-outline-light" href="#aSan">San Francisco</a>
+            <a class="btn btn-outline-light" href="#aJapan">Tokyo</a>
+          </div>
+        </div>
+      </div>
+
         <br>
         <br>
         <br>
+
         <div class="row" id="tours">
           <div class="col">
             <div class="jumbotron dark">
-              <h1 class="display-4">Tour Dates</h1>
-              <p class="lead">Witness our awesome tours.</p>
               <hr class="my-4">
 
-              <div class="card darkCard mb-3">
+              <div id="aNewYork" class="card darkCard mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-4">
                     <img src="img/nycMusic.png" class="card-img" alt="Panorama">
@@ -144,7 +156,9 @@
                     <div class="card-body">
                       <h1 class="card-title">New York</h1>
                       <h3>July 4, 2019</h3>
-                      <p class="card-text">Join us at the NYC Panorama.</p>
+                      <p class="card-text">Join us at the NYC Panorama. New York is one of the most popular tourist destinations in the world, and with good reason. NYC is the mecca of business in the United States, and as a melting pot of American culture, there is something for every style, taste and budget in New York City. This is why the Techno Tuners picked this spot to enclose all of their new music releases for the much wanted songs from the fans.
+With so much to see and do in NYC, it's important for NYC tourists to do their research ahead of time before their vacation in New York City. NYC has something for every style, taste and budget, and with so many hidden gems around every corner, every tourist planning travel to NYC could use some inside information when it comes to New York City and Manhattan. </p>
+                      <a class="btn btn-outline-light" href="#point">Back to Top</a>
                     </div>
                   </div>
                 </div>
@@ -153,7 +167,7 @@
               <br>
               <br>
 
-              <div class="card darkCard mb-3">
+              <div id="aSing" class="card darkCard mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-4">
                     <img src="img/singaporeMusic.jpg" class="card-img" alt="Songkran">
@@ -162,7 +176,9 @@
                     <div class="card-body">
                       <h1 class="card-title">Singapore</h1>
                       <h3>July 11, 2019</h3>
-                      <p class="card-text">Explore music with us at Songkran.</p>
+                      <p class="card-text">Explore music with us at Songkran. Held in the Songkran stadium, Techno Tuners hope to bring Thailand a whole new experience for how music is listened to. Water is an important element of Songkran, especially in more recent times when the throwing of water has become a huge part of the annual celebrations. If you’re visiting Thailand during this period, prepare to get splashed! Crowds of people roam around throwing buckets of water, using water pistols and just generally soaking anyone in the vicinity. Appreciation of family is another important aspect of the festival, with many Thai people making their way to their hometowns to spend time with older relatives. Buddhists also visit temples throughout Songkran where water is poured on Buddha images and on the hands of Buddhist monks as a mark of respect.
+                      </p>
+                      <a class="btn btn-outline-light" href="#point">Back to Top</a>
                     </div>
                   </div>
                 </div>
@@ -171,7 +187,7 @@
               <br>
               <br>
 
-              <div class="card darkCard mb-3">
+              <div id="aDubai" class="card darkCard mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-4">
                     <img src="img/dubaiMusic.jpg" class="card-img" alt="Dubai Desert Concert">
@@ -180,7 +196,11 @@
                     <div class="card-body">
                       <h1 class="card-title">Dubai, UAE</h1>
                       <h3>July 18, 2019</h3>
-                      <p class="card-text">Experience a revolutionary rock concert.</p>
+                      <p class="card-text">Experience a revolutionary rock concert.Held at one of the most beautiful cities in the world, Techno Tuners will truly make your experience worthwhile. Due to the new released album, Techno Tuners will play the entire song list for everybody to enjoy!
+The Emirate of Dubai is the second largest of the seven United Arab Emirates but has the biggest population at over 2.1 million inhabitants. Size has been synonymous with Dubai as it continues to build the first, largest and the biggest constructions in the world. Dubai's dynamics are always transient and ever-changing with its constant urge to construct something better and bigger than the previous. If there was a Palm Island, Nakheel thought of the World Island. Burj Al Arab seemed too timid when Burj Khalifa cropped up, distancing itself to being a loner in the crowd. Dubai constantly dwells in a suppressive competition with itself trying to magnetize tourists to a dreamy world of attractions and unheard of luxuries. The emirate's scoring points lie in its entrepreneurial abilities to create the inconceivable found in its tourist attractions, landmarks, shopping centres, parks, nightlife and hotels. Although it strictly safeguards its traditional practices, it allows space for other religions to breathe, a rare quality amongst the conservative Arab world. Thankfully, it has been successful in shielding itself from extremism, much-needed for it to survive. Today, Dubai has emerged as a cosmopolitan metropolis that has grown steadily to become a global city and a business and cultural hub of the Middle East and the Persian Gulf region.
+
+</p>
+                      <a class="btn btn-outline-light" href="#point">Back to Top</a>
                     </div>
                   </div>
                 </div>
@@ -189,7 +209,7 @@
               <br>
               <br>
 
-              <div class="card darkCard mb-3">
+              <div id="aSan" class="card darkCard mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-4">
                     <img src="img/treasureIsland.jpg" class="card-img" alt="Treasure Island">
@@ -199,6 +219,7 @@
                       <h1 class="card-title">San Francisco, US</h1>
                       <h3>August 2, 2019</h3>
                       <p class="card-text">Change your perspective in Treasure Island.</p>
+                      <a class="btn btn-outline-light" href="#point">Back to Top</a>
                     </div>
                   </div>
                 </div>
@@ -207,7 +228,7 @@
               <br>
               <br>
 
-              <div class="card darkCard mb-3">
+              <div id="aJapan" class="card darkCard mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-4">
                     <img src="img/japanMusic.jpg" class="card-img" alt="Japan">
@@ -216,7 +237,12 @@
                     <div class="card-body">
                       <h1 class="card-title">Tokyo, Japan</h1>
                       <h3>August 8, 2019</h3>
-                      <p class="card-text">Experiment in Ultra Japan.</p>
+                      <p class="card-text">Experiment in Ultra Japan. The Japan stop of the Ultra Music Festival which started in Miami in 1999 and is now held in over 20 countries worldwide. In Japan, the Ultra Music Festival has been running since 2014 and sees turnouts in excess of 120,000.
+Tourist: <br />Tokyo (東京, Tōkyō) is Japan's capital and the world's most populous metropolis. It is also one of Japan's 47 prefectures, consisting of 23 central city wards and multiple cities, towns and villages west of the city center. The Izu and Ogasawara Islands are also part of Tokyo.
+Prior to 1868, Tokyo was known as Edo. A small castle town in the 16th century, Edo became Japan's political center in 1603 when Tokugawa Ieyasu established his feudal government there. A few decades later, Edo had grown into one of the world's most populous cities. With the Meiji Restoration of 1868, the emperor and capital moved from Kyoto to Edo, which was renamed Tokyo ("Eastern Capital"). Large parts of Tokyo were destroyed in the Great Kanto Earthquake of 1923 and in the air raids of 1945.
+Today, Tokyo offers a seemingly unlimited choice of shopping, entertainment, culture and dining to its visitors. The city's history can be appreciated in districts such as Asakusa and in many excellent museums, historic temples and gardens. Contrary to common perception, Tokyo also offers a number of attractive green spaces in the city center and within relatively short train rides at its outskirts.
+</p>
+                      <a class="btn btn-outline-light" href="#point">Back to Top</a>
                     </div>
                   </div>
                 </div>
@@ -224,7 +250,10 @@
             </div>
           </div>
         </div>
+
+
         <br />
+
         <div class="row dark bg-black" style="width: 100%; margin: 0 auto;">
           <!-- Footer -->
           <footer class="page-footer font-small stylish-color-dark pt-4">

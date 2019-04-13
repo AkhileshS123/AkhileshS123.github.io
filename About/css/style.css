@@ -44,6 +44,10 @@ nav{
 #stem-jumbotron{
   color: black;
 }
+
+#article h1:hover{
+  text-decoration: underline;
+}
 #footer{
   padding: 10px;
 }

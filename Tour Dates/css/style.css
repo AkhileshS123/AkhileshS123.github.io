@@ -1,6 +1,9 @@
 body{
   background-color: black;
 }
+html{
+  scroll-behavior: smooth;
+}
 header .btn{
   margin: 20px;
 }
