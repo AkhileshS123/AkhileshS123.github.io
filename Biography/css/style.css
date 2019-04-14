@@ -109,9 +109,8 @@ footer{
     background-attachment: inherit;
     display:none;
   }
-
+  
 }
-
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
   background-attachment: fixed;
