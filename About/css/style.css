@@ -36,7 +36,8 @@ button #headingThree{
   }
   #footer a{
     padding: 1px;
-    width: 50%;
+    width: 40%;
+    height: 20%;
   }
 
 }
