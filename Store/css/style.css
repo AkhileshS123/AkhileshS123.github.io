@@ -1,7 +1,17 @@
 body{
   background-color:black;
 }
-
+html{
+  scroll-behavior: smooth;
+}
+.row img:hover{
+  -webkit-filter: brightness(70%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
 header .btn{
   margin: 20px;
 }

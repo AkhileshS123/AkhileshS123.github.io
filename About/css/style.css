@@ -15,7 +15,11 @@ body{
 button #headingThree{
   color: white !important;
 }
-#mission{
+#mission .card p:hover{
+  p:before{
+    color: white;
+    background: red;
+  }
 }
 @media only screen and (max-width: 768px) {
   #mission{
@@ -23,8 +27,14 @@ button #headingThree{
     margin-bottom: 30px;
   }
   #tsaGif img{
-    width: 100vw;
+    height: 400px;
+    margin: 0;
+    padding: 0;
   }
+  #rise{
+    margin-bottom: 15px;
+  }
+
 }
 .card{
   height: 100%;
@@ -49,8 +59,9 @@ nav{
   text-decoration: underline;
 }
 #footer{
-  padding: 10px;
+  padding: 20px;
 }
 #footer img{
-  width: 20%;
+  width: 100%;
+  height: 60vh;
 }

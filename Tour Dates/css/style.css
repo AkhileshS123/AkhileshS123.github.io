@@ -14,6 +14,71 @@ footer{
   background-color: black;
   width: 100%;
 }
+/*Parallax*/
+@media only screen and (max-width: 768px) {
+  .bgimg-1, .bgimg-2, .bgimg-3,.bgimg-4, .bgimg-5 {
+    background-attachment: inherit;
+    display:none;
+  }
+
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3,.bgimg-4, .bgimg-5 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background: url("../img/newYork.jpg");
+  background-position: center;
+  background-size: 100% auto;
+  min-height: 70vh;
+  background-attachment: fixed;
+}
+/*The image below is dubai*/
+.bgimg-2 {
+  background-image: url("../img/singapore.jpg");
+  background-position: center;
+  background-size: 100% auto;
+  min-height: 70vh;
+}
+
+.bgimg-3 {
+  background-image: url("../img/dubai.jpeg");
+  background-position: center ;
+  background-size: 100% auto;
+  min-height: 400px;
+}
+.bgimg-4 {
+  background-image: url("../img/sanFrancisco.jpg");
+  background-position: center ;
+  background-size: 100% auto;
+  min-height: 400px;
+}
+.bgimg-5 {
+  background-image: url("../img/tokyo.jpg");
+  background-position: center ;
+  background-size: 100% auto;
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  font-size: 6vw;
+  top: 40%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #FFF;
+  padding: 1vh;
+  border: 2px solid white;
+  
+}
+
+/*Parallax end*/
 .carousel {
   margin: auto;
   width:100%;
