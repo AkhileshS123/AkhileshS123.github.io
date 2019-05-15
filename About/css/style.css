@@ -39,6 +39,9 @@ button #headingThree{
     width: 40%;
     height: 20%;
   }
+  #members{
+    display: none;
+  }
 
 }
 .card{
