@@ -10,9 +10,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>TSA 2018-19 | Webmasters</title>
+    <style>
+    *{
+      cursor: url("./css/firecursor.cur"), default;
+    }
+
+    </style>
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
         <header class="sticky-top">
           <nav class="navbar navbar-expand-lg navbar-light bg-dark">
               <a class="navbar-brand text-white" href="https://tsaweb.org" target="_blank">
@@ -25,21 +31,83 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <div class="navbar-nav mx-auto">
                       <a class="btn btn-danger btn-lg active" href="./About.html">About</a>
+                      <a class="btn btn-danger btn-lg active" href="#whatIsTSA">About TSA</a>
+                      <a class="btn btn-danger btn-lg active" href="#RockRidgeTSA">Chapter</a>
+                      <a class="btn btn-danger btn-lg active" href="./About.html">CTE</a>
                       <a class="btn btn-danger btn-lg active" href="../Biography/biography.html">Design Brief</a>
                   </div>
               </div>
           </nav>
         </header>
-        <!--Jumbotron-->
+
+
+        <!--Our TSA-->
+        <div id="ourTSA" class="row">
+          <div class="col">
+            <div class="jumbotron" style="background: linear-gradient(to right, #1488CC , #2B32B2); color: white; padding: 40px;">
+              <h1 class="text-center text-white" style="font-size: 12vh;"> Our TSA </h1>
+              <h1 class="text-center text-white" style="font-size: 6vh;"> Rock Ridge Phoenix</h1>
+              <br />
+              <div style="width: 80%; margin: auto;">
+                <img class="w-50 rounded mx-auto d-block" src="./img/phoenix.png" />
+              </div>
+              <div style="width: 80%; margin: auto;">
+                <img style="width: 20%; color: white;"class="rounded mx-auto d-block" src="./img/whiteDown.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--What is TSA-->
+      <div id="whatIsTSA" class="row" style="background: white; width: 100%;">
+          <div class="col" style="padding: 7vw 20vw;">
+            <h1 style="padding-bottom: 10px; color: purple; font-size: 10vh;">What is TSA?</h1>
+            <br />
+            <br />
+            <p>
+              TSA (Technology Student Association) is a national organization dedicated to creating future leaders in the science, technology, engineering, and mathematics fields. The organization uses its yearly set of competitions to test the abilities of the students competing in the event. In addition to expanding their knowledge, the members are able to represent their school and community when competing. <br /> <br />
+              The TSA motto “learning to lead in a technical world” is precisely what the organization is working towards, as the club has opened branches in 48 of the 50 states. The overall mission of TSA is to have the members of the club learn and develop their skills in the STEM department and to eventually implement them on solutions towards the world’s most concerning problems.
+
+            </p>
+
+            <div class="row">
+              <div id="mission" class="col-sm-12 col-md-6">
+                <div class="card" style="background: white; color: black;">
+                  <div class="card-header font-weight-bolder" style="font-size: 30px;">Mission</div>
+                  <div class="card-body">
+                    <p class="card-text">The Technology Student Association (TSA) enhances personal development, leadership, and career opportunities in science, technology, engineering, and math (STEM), whereby members apply and integrate these concepts through intracurricular activities, competitions, and related programs.</p>
+                    <br />
+                    <br />
+                    <a href="https://tsaweb.org/about/about-tsa/mission" class="btn btn-primary" target="_blank">Learn More</a>
+                  </div>
+                </div>
+              </div>
+              <div id="mission" class="col-sm-12 col-md-6">
+                <div class="card" style="background: white; color: black;">
+                  <div class="card-header font-weight-bolder" style="font-size: 30px;">Vision</div>
+                  <div class="card-body">
+                    <p class="card-text">TSA is accelerating student achievement and supporting teachers by providing engaging opportunities to develop STEM skills.
+                      TSA members have the opportunity to compete at state conferences and at the annual National Conference. Expert judging by technology educators and industry representatives inspires the best from participants. Members are awarded not only with medals and trophies but also with memories of innovation and collaboration.
+
+                    </p>
+                    <a href="https://tsaweb.org/about/about-tsa/mission" class="btn btn-primary" target="_blank">Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+      </div>
+
+
+
+        <!--Jumbotron
         <div class="row">
           <div class="col">
             <div class="jumbotron" style="background: grey; color: white; padding: 10px; border: 1px red solid;">
               <h1 class="text-center text-white"> Welcome to TSA Webmasters 2018-19! </h1>
               <br>
-              <!--https://www.google.com/webmasters/images/support/webmaster-troubleshooter.svg
-              <iframe class="embed-responsive-item" src="img/IntroTSA.gif" style="margin: 0 auto;"></iframe>
 
-            -->
              <img id="tsaGif" class="w-75 rounded mx-auto d-block" src = "img/IntroTSA.gif"/>
 
               <br>
@@ -47,8 +115,11 @@
             </div>
           </div>
         </div>
+      -->
 
-        <!--Mission and Vision-->
+
+
+        <!--Mission and Vision
         <div class="row">
           <div id="mission" class="col-sm-12 col-md-6">
             <div class="card" style="background: white; color: black;">
@@ -74,22 +145,138 @@
             </div>
           </div>
         </div>
+      -->
 
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <!--Rock Ridge Banner-->
-        <div class="row">
-          <div class="col">
-            <h1 class="text-center text-white" style="font-size: 10vh; text-align: center;">Rock Ridge High School</h1>
+
+
+
+      <div id="RockRidgeTSA" class="row" style="background:  linear-gradient(to bottom right, orange, red); width: 100%;">
+          <div class="col" style="padding: 7vw 20vw;">
+            <h1 style="padding-bottom: 10px; color: white; font-size: 10vh;">Rock Ridge TSA</h1>
+              <br />
+            <hr class="my-4" style="border-top: 1px white solid;">
+              <br />
+            <h1 style="padding-bottom: 10px; color: white; font-size: 6vh;">Our History</h1>
+              <p style="color: white; font-size: 20px;">
+                We are Rock Ridge High School. Located at Ashburn, Loudoun County, Rock Ridge is home to masses of students dedicated to STEM. Realizing that all of this passion and talent of our fellow classmates could be used to better the <strong>community</strong> and <strong>promote collaboration</strong>, Rock Rock TSA was created. With over 7 years of consistent TSA participation and placement in competitons, Rock Ridge High School has established itself as a strong and competent chapter.
+              </p>
+              <br / />
+
+            <h1 style="padding-bottom: 10px; color: white; font-size: 6vh;">Chapter Board</h1>
+            <!--Insert the slideshow-->
+            <!--Fix the achivements indent-->
+            <div class="row">
+              <div class="col">
+                <h1 style="padding-bottom: 10px; color: white; font-size: 6vh;">Achievements</h1>
+                  <p class="text-white" style="font-size: 20px;">
+                    Here are some of our teams going to nationals.
+                  </p>
+                  <p style="font-size: 20px;" class="text-white">
+                    VEX Robotics: 1st 🥇<br />
+                    VEX Robotics: 2nd 🥈<br />
+                    Webmasters: 3rd 🥉<br />
+                  </p>
+              </div>
+            </div>
+            <div class="col">
+              <img class="w-100 rounded mx-auto d-block" src="./img/TSAstates19.png" />
+            </div>
           </div>
-        </div>
 
+      </div>
         <!--Rock Ridge Carousel-->
-        <div class="row">
+
+
+
+
+        <div class="section" style="color:white;" id = "activities">
+                <div class="container">
+                    <div class="section-title">
+                      <h1 style="padding-bottom: 10px; color: white; font-size: 6vh;">Activities</h1>
+                    </div>
+
+                    <ul class="nav nav-tabs nav-justified" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#meetings" style="text-decoration: none; color: pink;">Meetings</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#involvement" style="text-decoration: none; color: pink;">Involvement</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#community" style="text-decoration: none; color: pink;">Community</a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="meetings">
+                            <div class="d-flex flex-column flex-lg-row">
+                                <div>
+
+                                    <h2> Meetings</h2>
+                                    <br />
+                                    <h4>Attendance</h4>
+                                    <p>To ensure consistent participation in the club, mandatory attendance forms are filled by club members every weekly meeting. With this information, important information relevant to the approaching competitions and community projects are relayed accordingly.
+                                      This year we had amazing participation and commitment with a 95% attendance rate!
+                                    </p>
+                                    <h4>Meeting Agenda</h4>
+                                    <p>
+                                      To keep all students intact with their TSA event, the club runs weekly meetings to regroup the teams and update each other on any group progress. The club officers begin the meetings with recaps on competition dates, event updates, and general announcements. Throughout the meetings, teams meet up to share their personal progress on the project and plan out future progress.
+                                    </p>
+                                    <div>
+                                        <img style="width:auto; height:350px"src="img/weeklymeetings1.JPG"/>
+                                        <img style=" width:auto; height:350px" src="img/weeklymeetings2.JPG"/>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="involvement">
+                            <div class="d-flex flex-column flex-lg-row">
+                                <div>
+                                    <h2>Involvement</h2>
+                                    <br />
+                                    <h4>Guest Speakers</h4>
+                                    <p>To inspire the students and expose them to other applications of technology, the President of the chapter asked for a few guests to speak at one of the weekly meetings. The guests were a self initiated FIRST FTC robotics team and their mentor, who demoed their robot and spoke about their programming design.
+                                    </p>
+                                    <div>
+                                        <img style="width:auto; height:280px"src="img/guest1.jpeg"/>
+                                        <img style="width:auto; height:280px" src="img/guest2.JPG"/>
+                                    </div>
+                                    <br>
+                                    <h4>Party</h4>
+                                    <p> To celebrate New Years, the students held a party at one of the weekly meetings in January. The party became a quick success as all the members of the club had brought different food items to contribute. Students shared their projects with other groups, enjoying themselves and each other's company.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="community">
+                            <div class="d-flex flex-column flex-lg-row">
+                                <div>
+                                    <h2>Community</h2>
+                                    <br />
+                                    <h4>Future Coders of America</h4>
+                                    <p>Realizing the increasing signifance and impact of computer programming and technology in our lives, TSA chapter members, namely Akhilesh Sivaganesan and Arjun Trivedi, created a separate club named Future Coders of America (FCA). FCA is an after school club that gathers high school students currently enrolled in Computer Science courses to tutor middle and elementary school students on the fundamentals of coding. The club works very closely with TSA and often TSA members are also members of FCA. FCA offers free classes that cover Java and Python through simple lessons hosted by nearby libraries and local spaces like the Curie Learning Center and Brambleton Library. Rock Ridge TSA is proud to spread digital literacy among our younger population.
+                                                                        </p>
+                                    <div>
+                                        <img style="width:auto; height:350px"src="img/FCA.jpg"/>
+                                        <img style="width:auto; height:350px" src="img/codingFCA.jpg"/>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+      <div class="row">
           <div class="col justify-content-center">
             <div id="schoolTSASlides" class="carousel slide carousel-fade" data-ride="carousel">
               <ol class="carousel-indicators">
@@ -142,6 +329,8 @@
 
         </div>
 
+
+
         <!--Rock Ridge Article--->
         <div class="row" id="article">
 
@@ -184,9 +373,13 @@
           </div>
 
         </div>
+
+
         <br>
         <br>
         <br>
+
+
         <!--Jumbotron for STEM-->
         <div class="row">
           <div class="col">
@@ -308,9 +501,15 @@
           </div>
         </div>
 
+
+
         <br>
         <br>
         <br>
+
+
+
+
         <div id="footer" class="row">
           <div class="jumbotron w-100">
             <h1 class="text-center display-4" style="letter-spacing: 5px; font-size: 5vh;">Head to the Design Brief</h1>
@@ -323,11 +522,18 @@
             </div>
           </div>
         </div>
+
+
+
+
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+
   </body>
+
 </html>

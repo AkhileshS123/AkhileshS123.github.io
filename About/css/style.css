@@ -2,7 +2,7 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  background: url("../img/blue3.jpg");
+  background: linear-gradient(to right, #1488CC , #2B32B2);
 
 }
 .row{
